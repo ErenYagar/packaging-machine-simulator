@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.1606771">
+  <test-suite type="TestSuite" id="1000" name="Packaging Machine Simulator" fullname="Packaging Machine Simulator" runstate="Runnable" testcasecount="28" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.160677" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1040" name="WaferSaw.EditModeTests.dll" fullname="C:/project/TSMCEE/PackagingMachineSimulator/TestResults/WaferSawValidation/Library/ScriptAssemblies/WaferSaw.EditModeTests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.139701" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="28428" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1041" name="WaferSaw" fullname="WaferSaw" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.138309" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1042" name="Tests" fullname="WaferSaw.Tests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.135806" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1026" name="WaferSawTests" fullname="WaferSaw.Tests.WaferSawTests" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.131379" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1037" name="AutoDemoCompletesWithinThreeMinutes" fullname="WaferSaw.Tests.WaferSawTests.AutoDemoCompletesWithinThreeMinutes" methodname="AutoDemoCompletesWithinThreeMinutes" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="282365834" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.051566" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="CoolingFaultRaisesTemperatureAndMaintenanceCoolsIt" fullname="WaferSaw.Tests.WaferSawTests.CoolingFaultRaisesTemperatureAndMaintenanceCoolsIt" methodname="CoolingFaultRaisesTemperatureAndMaintenanceCoolsIt" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="363749885" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.006600" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="FailedVerificationRelatchesAndRequiresNewDiagnosis" fullname="WaferSaw.Tests.WaferSawTests.FailedVerificationRelatchesAndRequiresNewDiagnosis" methodname="FailedVerificationRelatchesAndRequiresNewDiagnosis" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1175638912" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.003027" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1030" name="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance" fullname="WaferSaw.Tests.WaferSawTests.FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.013438" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1027" name="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(SpindleVibration,&quot;E203&quot;)" fullname="WaferSaw.Tests.WaferSawTests.FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(SpindleVibration,&quot;E203&quot;)" methodname="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1537352218" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.004567" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(VacuumLow,&quot;E117&quot;)" fullname="WaferSaw.Tests.WaferSawTests.FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(VacuumLow,&quot;E117&quot;)" methodname="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="2008893420" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.000916" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1029" name="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(CoolingFlowLow,&quot;E305&quot;)" fullname="WaferSaw.Tests.WaferSawTests.FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance(CoolingFlowLow,&quot;E305&quot;)" methodname="FaultWarnsTripsAndRecoversOnlyAfterOrderedMaintenance" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1984496853" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.001510" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1036" name="KpiUsesProductionTimeAndMeanOfCompletedRepairs" fullname="WaferSaw.Tests.WaferSawTests.KpiUsesProductionTimeAndMeanOfCompletedRepairs" methodname="KpiUsesProductionTimeAndMeanOfCompletedRepairs" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="141668550" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.002126" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="PmRequiresStopAndNeverClearsAlarm" fullname="WaferSaw.Tests.WaferSawTests.PmRequiresStopAndNeverClearsAlarm" methodname="PmRequiresStopAndNeverClearsAlarm" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1629541994" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.005254" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="ResetRestoresEverySubsystemAndStartsNewSession" fullname="WaferSaw.Tests.WaferSawTests.ResetRestoresEverySubsystemAndStartsNewSession" methodname="ResetRestoresEverySubsystemAndStartsNewSession" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1830509932" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.002664" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="SensorsAreSmoothAndNormalAtSteadyProduction" fullname="WaferSaw.Tests.WaferSawTests.SensorsAreSmoothAndNormalAtSteadyProduction" methodname="SensorsAreSmoothAndNormalAtSteadyProduction" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="243193283" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.002577" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="StopCannotBypassInjectedFaultOrVerification" fullname="WaferSaw.Tests.WaferSawTests.StopCannotBypassInjectedFaultOrVerification" methodname="StopCannotBypassInjectedFaultOrVerification" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="457111827" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.001104" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="TrendHistoryAtTripSurvivesLongDiagnosis" fullname="WaferSaw.Tests.WaferSawTests.TrendHistoryAtTripSurvivesLongDiagnosis" methodname="TrendHistoryAtTripSurvivesLongDiagnosis" classname="WaferSaw.Tests.WaferSawTests" runstate="Runnable" seed="1398645105" result="Passed" start-time="2026-09-30 05:26:02Z" end-time="2026-09-30 05:26:02Z" duration="0.008597" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\project\TSMCEE\PackagingMachineSimulator\TestResults\WaferSaw/EditMode-final.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

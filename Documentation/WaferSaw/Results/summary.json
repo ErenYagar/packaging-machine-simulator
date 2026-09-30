@@ -1,0 +1,28 @@
+{
+  "editor": "6000.3.0f1",
+  "sourceEditor": "2022.3.62f1",
+  "date": "2026-09-30",
+  "tests": {
+    "EditMode": {
+      "result": "Passed",
+      "total": "12",
+      "passed": "12",
+      "failed": "0"
+    },
+    "PlayMode": {
+      "result": "Passed",
+      "total": "4",
+      "passed": "4",
+      "failed": "0"
+    }
+  },
+  "newCompilerErrors": 0,
+  "newCompilerWarnings": 0,
+  "preExistingUnity6Warnings": 4,
+  "originalProjectVersionAndPackagesUnchanged": true,
+  "sourceVersionHashes": {
+    "ProjectSettings/ProjectVersion.txt": "b894626e3ea2591a55c40cf6c015dd7ecda4c5006ae6b5574e09f20a96aae508",
+    "Packages/manifest.json": "66a7ec293b7ce45ba9b710f000f8528fedf95d77c58855006ac6e31a8a8005ba"
+  },
+  "verifiedCSharpFiles": 21
+}

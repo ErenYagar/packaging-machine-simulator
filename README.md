@@ -1,4 +1,20 @@
-# Unity 封裝機台狀態機範例
+# Semiconductor Equipment Digital Twin — Unity / C#
+
+新增 **Wafer Saw Equipment Engineering Digital Twin MVP**：選 **Tools → Build Wafer Saw Digital Twin**，開啟 `Assets/Scenes/WaferSawDigitalTwin.unity` 後按 Play。包含三種故障、完整排故／維修／驗證、即時曲線、KPI、PM 與約 94 秒自動展示。
+
+完整執行方式、程式分工與驗證限制請見 [Wafer Saw README](Assets/Documentation/README.md)。下方為原有封膠壓機示範說明。
+
+## Wafer Saw 示範影片
+
+[![Wafer Saw Digital Twin 實際 Unity 畫面](Documentation/WaferSaw/Previews/04-alarm.png)](Recordings/WaferSaw-DigitalTwin-Demo-1080p.mp4)
+
+[觀看／下載完整 MP4](https://github.com/ErenYagar/packaging-machine-simulator/raw/refs/heads/main/Recordings/WaferSaw-DigitalTwin-Demo-1080p.mp4) · **1 分 42 秒 · 1920×1080 · 30 fps · 無音軌**
+
+影片是實際 Unity 模擬器畫面，展示 **Running → Warning → Alarm → Maintenance → Verifying → Running**，包含感測趨勢、告警鎖存、有序排故、換刀、校正、test wafer 與復原後 KPI。資料、機台幾何與參數均為教學模擬。
+
+Wafer Saw 已在 **Unity 6000.3.0f1 隔離副本**通過 **12 項 EditMode + 4 項 PlayMode 測試**。來源專案維持 **Unity 2022.3.62f1**；該版本尚未實測。[測試結果與限制](Assets/Documentation/Verification.md) · [影片與事件紀錄](Recordings/README.md)
+
+## 原有封膠壓機示範
 
 使用 **Unity 2022.3 LTS、C#、Input System、TextMeshPro 與 uGUI** 的獨立起始專案。包含基本封膠壓機示意、Idle／Running／Alarm、壓力與溫度模擬、故障注入、手動警報復歸及保養勾選清單。無需購買模型或 UI 資產。
 

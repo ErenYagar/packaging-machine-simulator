@@ -1,0 +1,6 @@
+{
+  "name": "WaferSaw.EditModeTests",
+  "references": ["WaferSaw.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

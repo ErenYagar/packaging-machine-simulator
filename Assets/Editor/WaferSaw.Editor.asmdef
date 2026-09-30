@@ -1,0 +1,5 @@
+{
+  "name": "WaferSaw.Editor",
+  "references": ["WaferSaw.Runtime", "Unity.ugui"],
+  "includePlatforms": ["Editor"]
+}

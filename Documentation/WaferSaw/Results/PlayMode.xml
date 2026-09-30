@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.8528131">
+  <test-suite type="TestSuite" id="1018" name="Packaging Machine Simulator" fullname="Packaging Machine Simulator" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.852813" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1015" name="WaferSaw.PlayModeTests.dll" fullname="C:/project/TSMCEE/PackagingMachineSimulator/TestResults/WaferSawValidation/Library/ScriptAssemblies/WaferSaw.PlayModeTests.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.837338" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="20780" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1016" name="WaferSaw" fullname="WaferSaw" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.835880" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1017" name="Tests" fullname="WaferSaw.Tests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.834626" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1010" name="WaferSawPlayTests" fullname="WaferSaw.Tests.WaferSawPlayTests" classname="WaferSaw.Tests.WaferSawPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:25Z" duration="2.830060" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="ActualPointerCanStartMachine" fullname="WaferSaw.Tests.WaferSawPlayTests.ActualPointerCanStartMachine" methodname="ActualPointerCanStartMachine" classname="WaferSaw.Tests.WaferSawPlayTests" runstate="Runnable" seed="1340558429" result="Passed" start-time="2026-09-30 05:26:22Z" end-time="2026-09-30 05:26:23Z" duration="0.631487" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="DashboardButtonsMotionAndRecovery" fullname="WaferSaw.Tests.WaferSawPlayTests.DashboardButtonsMotionAndRecovery" methodname="DashboardButtonsMotionAndRecovery" classname="WaferSaw.Tests.WaferSawPlayTests" runstate="Runnable" seed="1781413369" result="Passed" start-time="2026-09-30 05:26:23Z" end-time="2026-09-30 05:26:25Z" duration="1.713427" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="OtherFaultSelectorsRecoverAndReset" fullname="WaferSaw.Tests.WaferSawPlayTests.OtherFaultSelectorsRecoverAndReset" methodname="OtherFaultSelectorsRecoverAndReset" classname="WaferSaw.Tests.WaferSawPlayTests" runstate="Runnable" seed="1429749859" result="Passed" start-time="2026-09-30 05:26:25Z" end-time="2026-09-30 05:26:25Z" duration="0.233344" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="StarterSceneBootstrapCreatesAllReferencesWithoutDragging" fullname="WaferSaw.Tests.WaferSawPlayTests.StarterSceneBootstrapCreatesAllReferencesWithoutDragging" methodname="StarterSceneBootstrapCreatesAllReferencesWithoutDragging" classname="WaferSaw.Tests.WaferSawPlayTests" runstate="Runnable" seed="890349399" result="Passed" start-time="2026-09-30 05:26:25Z" end-time="2026-09-30 05:26:25Z" duration="0.226512" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\project\TSMCEE\PackagingMachineSimulator\TestResults\WaferSaw/PlayMode-final.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

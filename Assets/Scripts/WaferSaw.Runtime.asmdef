@@ -1,0 +1,5 @@
+{
+  "name": "WaferSaw.Runtime",
+  "rootNamespace": "WaferSaw",
+  "references": ["Unity.ugui", "Unity.InputSystem"]
+}

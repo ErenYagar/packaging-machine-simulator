@@ -1,0 +1,28 @@
+14:03:00  NEW SIMULATION SESSION - counters reset (not an alarm reset)
+14:03:00  STATE -> IDLE
+14:03:00  MACHINE START
+14:03:00  STATE -> RUNNING
+14:03:00  DEMO MODE - guided automatic sequence; STOP cancels automation
+14:03:12  FAULT INJECTED: SPINDLE VIBRATION HIGH
+14:03:17  STATE -> WARNING
+14:03:17  WARNING: SPINDLE VIBRATION HIGH
+14:03:25  STATE -> ALARM
+14:03:25  ALARM E203 - Threshold exceeded
+14:03:25  MACHINE STOPPED - spindle / stage / coolant stopped
+14:03:38  Check Alarm History completed
+14:03:38  ENGINEER DIAGNOSIS START
+14:03:44  View Sensor Trend completed
+14:03:50  Inspect Blade completed
+14:03:50  Inspection supports Replace Blade; verify repair with a test wafer
+14:03:58  STATE -> MAINTENANCE
+14:03:58  SIMULATED ISOLATION CONFIRMED - zero speed / coolant off
+14:03:58  Replace Blade performed
+14:04:08  Calibrate / Check Setup completed
+14:04:08  Calibration PASS - guards closed before test run
+14:04:14  Verification Run requested
+14:04:14  STATE -> VERIFYING
+14:04:14  Verification Run - test wafer, 8 s; all channels must stabilize
+14:04:22  TEST WAFER PASS - vibration / vacuum / flow / temperature / alignment
+14:04:22  STATE -> RUNNING
+14:04:22  MACHINE RECOVERED - alarm cleared
+14:04:34  DEMO COMPLETE - recovery and KPI review

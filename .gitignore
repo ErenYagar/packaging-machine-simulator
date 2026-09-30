@@ -7,3 +7,9 @@
 /Builds/
 *.csproj
 *.sln
+
+# Publish the finished recording and documentation, not capture diagnostics.
+/Recordings/*
+!/Recordings/*.mp4
+!/Recordings/README.md
+!/Recordings/event-log.txt
