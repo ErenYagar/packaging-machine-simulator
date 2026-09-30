@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.571936">
+  <test-suite type="TestSuite" id="1010" name="Packaging Machine Simulator" fullname="Packaging Machine Simulator" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.571936" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1005" name="PackagingSim.PlayModeTests.dll" fullname="C:/project/TSMCEE/PackagingMachineSimulator/TestResults/ValidationProject/Library/ScriptAssemblies/PackagingSim.PlayModeTests.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.562211" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="30916" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1006" name="PackagingSim" fullname="PackagingSim" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.560985" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1007" name="Tests" fullname="PackagingSim.Tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.560262" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="DemoTests" fullname="PackagingSim.Tests.DemoTests" classname="PackagingSim.Tests.DemoTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.558362" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="ButtonsChecklistAndAlarmRecovery" fullname="PackagingSim.Tests.DemoTests.ButtonsChecklistAndAlarmRecovery" methodname="ButtonsChecklistAndAlarmRecovery" classname="PackagingSim.Tests.DemoTests" runstate="Runnable" seed="812369894" result="Passed" start-time="2026-09-30 03:30:33Z" end-time="2026-09-30 03:30:37Z" duration="4.377649" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="InputSystemKeyboardControlsMachine" fullname="PackagingSim.Tests.DemoTests.InputSystemKeyboardControlsMachine" methodname="InputSystemKeyboardControlsMachine" classname="PackagingSim.Tests.DemoTests" runstate="Runnable" seed="120689880" result="Passed" start-time="2026-09-30 03:30:37Z" end-time="2026-09-30 03:30:37Z" duration="0.103378" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="InputSystemPointerClicksStartButton" fullname="PackagingSim.Tests.DemoTests.InputSystemPointerClicksStartButton" methodname="InputSystemPointerClicksStartButton" classname="PackagingSim.Tests.DemoTests" runstate="Runnable" seed="1768015734" result="Passed" start-time="2026-09-30 03:30:37Z" end-time="2026-09-30 03:30:37Z" duration="0.062685" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\project\TSMCEE\PackagingMachineSimulator\TestResults/PlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

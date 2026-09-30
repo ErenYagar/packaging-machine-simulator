@@ -1,0 +1,1 @@
+{"name":"PackagingSim.PlayModeTests","references":["PackagingSim.Core","PackagingSim.Runtime","Unity.InputSystem","Unity.TextMeshPro","Unity.ugui"],"optionalUnityReferences":["TestAssemblies"]}

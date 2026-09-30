@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="16" result="Passed" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.056528">
+  <test-suite type="TestSuite" id="1000" name="Packaging Machine Simulator" fullname="Packaging Machine Simulator" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.056528" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1022" name="PackagingSim.EditModeTests.dll" fullname="C:/project/TSMCEE/PackagingMachineSimulator/TestResults/ValidationProject/Library/ScriptAssemblies/PackagingSim.EditModeTests.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.046071" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="10348" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1023" name="PackagingSim" fullname="PackagingSim" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.045406" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1024" name="Tests" fullname="PackagingSim.Tests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.045071" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="MachineTests" fullname="PackagingSim.Tests.MachineTests" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.044155" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="CannotStartWithoutSample" fullname="PackagingSim.Tests.MachineTests.CannotStartWithoutSample" methodname="CannotStartWithoutSample" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="681712605" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.015502" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1005" name="ExactLimitsAreAllowed" fullname="PackagingSim.Tests.MachineTests.ExactLimitsAreAllowed" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.003363" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1003" name="ExactLimitsAreAllowed(0.45f,150.0f)" fullname="PackagingSim.Tests.MachineTests.ExactLimitsAreAllowed(0.45f,150.0f)" methodname="ExactLimitsAreAllowed" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="348917606" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.001148" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="ExactLimitsAreAllowed(0.7f,190.0f)" fullname="PackagingSim.Tests.MachineTests.ExactLimitsAreAllowed(0.7f,190.0f)" methodname="ExactLimitsAreAllowed" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="69472558" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000130" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1010" name="FaultLatchesUntilHealthyAndReset" fullname="PackagingSim.Tests.MachineTests.FaultLatchesUntilHealthyAndReset" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.003315" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1006" name="FaultLatchesUntilHealthyAndReset(0.449f,170.0f,&quot;壓力過低&quot;)" fullname="PackagingSim.Tests.MachineTests.FaultLatchesUntilHealthyAndReset(0.449f,170.0f,&quot;壓力過低&quot;)" methodname="FaultLatchesUntilHealthyAndReset" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1767880265" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.002116" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="FaultLatchesUntilHealthyAndReset(0.701f,170.0f,&quot;壓力過高&quot;)" fullname="PackagingSim.Tests.MachineTests.FaultLatchesUntilHealthyAndReset(0.701f,170.0f,&quot;壓力過高&quot;)" methodname="FaultLatchesUntilHealthyAndReset" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1803808447" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000149" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="FaultLatchesUntilHealthyAndReset(0.57f,149.9f,&quot;溫度過低&quot;)" fullname="PackagingSim.Tests.MachineTests.FaultLatchesUntilHealthyAndReset(0.57f,149.9f,&quot;溫度過低&quot;)" methodname="FaultLatchesUntilHealthyAndReset" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1183562386" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000088" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="FaultLatchesUntilHealthyAndReset(0.57f,190.1f,&quot;溫度過高&quot;)" fullname="PackagingSim.Tests.MachineTests.FaultLatchesUntilHealthyAndReset(0.57f,190.1f,&quot;溫度過高&quot;)" methodname="FaultLatchesUntilHealthyAndReset" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="131576874" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000060" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1015" name="InvalidConfigurationBlocksOperation" fullname="PackagingSim.Tests.MachineTests.InvalidConfigurationBlocksOperation" methodname="InvalidConfigurationBlocksOperation" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1860508286" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000223" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1014" name="InvalidSensorDataTriggersAlarm" fullname="PackagingSim.Tests.MachineTests.InvalidSensorDataTriggersAlarm" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.001039" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1012" name="InvalidSensorDataTriggersAlarm(float.NaN,170.0f)" fullname="PackagingSim.Tests.MachineTests.InvalidSensorDataTriggersAlarm(float.NaN,170.0f)" methodname="InvalidSensorDataTriggersAlarm" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="327630625" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000285" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="InvalidSensorDataTriggersAlarm(0.57f,float.PositiveInfinity)" fullname="PackagingSim.Tests.MachineTests.InvalidSensorDataTriggersAlarm(0.57f,float.PositiveInfinity)" methodname="InvalidSensorDataTriggersAlarm" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1610473203" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000099" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1021" name="SensorInjectionAndRepairDriveTheStateMachine" fullname="PackagingSim.Tests.MachineTests.SensorInjectionAndRepairDriveTheStateMachine" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.004803" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1017" name="SensorInjectionAndRepairDriveTheStateMachine(LowPressure)" fullname="PackagingSim.Tests.MachineTests.SensorInjectionAndRepairDriveTheStateMachine(LowPressure)" methodname="SensorInjectionAndRepairDriveTheStateMachine" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="2020484919" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.002766" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="SensorInjectionAndRepairDriveTheStateMachine(HighPressure)" fullname="PackagingSim.Tests.MachineTests.SensorInjectionAndRepairDriveTheStateMachine(HighPressure)" methodname="SensorInjectionAndRepairDriveTheStateMachine" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1874240382" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000430" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="SensorInjectionAndRepairDriveTheStateMachine(LowTemperature)" fullname="PackagingSim.Tests.MachineTests.SensorInjectionAndRepairDriveTheStateMachine(LowTemperature)" methodname="SensorInjectionAndRepairDriveTheStateMachine" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1718642095" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000326" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="SensorInjectionAndRepairDriveTheStateMachine(HighTemperature)" fullname="PackagingSim.Tests.MachineTests.SensorInjectionAndRepairDriveTheStateMachine(HighTemperature)" methodname="SensorInjectionAndRepairDriveTheStateMachine" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="727824952" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.000304" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1011" name="SimultaneousFaultsMustBothRecover" fullname="PackagingSim.Tests.MachineTests.SimultaneousFaultsMustBothRecover" methodname="SimultaneousFaultsMustBothRecover" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="1601217673" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.001770" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="StateEventIsNotRepeatedForEveryBadSample" fullname="PackagingSim.Tests.MachineTests.StateEventIsNotRepeatedForEveryBadSample" methodname="StateEventIsNotRepeatedForEveryBadSample" classname="PackagingSim.Tests.MachineTests" runstate="Runnable" seed="105216577" result="Passed" start-time="2026-09-30 03:30:24Z" end-time="2026-09-30 03:30:24Z" duration="0.001133" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\project\TSMCEE\PackagingMachineSimulator\TestResults/EditMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

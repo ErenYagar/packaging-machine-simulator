@@ -1,0 +1,1 @@
+{"name":"PackagingSim.Runtime","rootNamespace":"PackagingSim","references":["PackagingSim.Core","Unity.InputSystem","Unity.TextMeshPro","Unity.ugui"]}

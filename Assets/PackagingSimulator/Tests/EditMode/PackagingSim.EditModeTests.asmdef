@@ -1,0 +1,1 @@
+{"name":"PackagingSim.EditModeTests","references":["PackagingSim.Core","PackagingSim.Runtime"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}
